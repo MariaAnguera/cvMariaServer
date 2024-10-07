@@ -1,0 +1,110 @@
+/*body {
+    padding: 12px;
+        }
+[class*="col-"] {
+    padding: 12px;
+    background-color: #E6E2EB;
+    border: 1px solid #C9C1D5;
+    margin-bottom: 30px;
+    
+        }
+.row {
+    margin-bottom: 1,5 em;
+        }
+.row .row {
+    margin-top: 0,8 em;
+    margin-bottom:  0;
+        }
+        */
+
+        .jumbotron{
+            padding: 2rem 1rem;
+            margin-top: 2em;
+            margin-bottom: 2rem;
+            background-color: #e9ecef;
+            border-radius: 0.3rem;
+            width: 100%;
+            box-sizing: border-box;
+         
+        }
+        
+        
+        .custom-rounded {
+            border-radius:80%;
+        }
+        
+        .icon-envelope {
+            color:#8854D6;
+        }
+        
+        .card{
+            margin: 0em 0em 0em 1em ;
+        }
+        
+        .btn-primary {
+            background-color: #8854D6 !important;
+            border-color:#8854D6 !important ;
+        }
+        .btn-primary:hover {
+            background-color: #7832e0 !important; /* Cambia el color al pasar el cursor */
+            border-color: #7832e0 !important;
+        }
+        
+        .with-margin-right {
+            margin-right: 35em; 
+        }
+        .navbar-brand{
+            padding-left: 2em;
+        }
+        .navbar-nav .nav-link {
+            margin-left: 20px; /* Ajusta el valor según sea necesario */
+        }
+        .mytoggle{
+            color:#fff;
+        }
+        .fa-plus{
+            color:#8854D6
+        }
+        
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: ">" !important;
+        }
+        
+        .breadcrumb {
+            background-color: #E9ECEF !important;
+            padding: 0.75rem 1rem !important;
+            margin-bottom: 1rem !important;
+            border-radius: 0.25rem !important;
+        }
+        .separar-izquierda {
+            margin-left: 6em; /* Ajusta el valor según sea necesario */
+        }
+        .dropdown-menu li {
+            width: 100%; /* Hacer que cada elemento de la lista ocupe todo el ancho disponible */
+           
+        }
+        
+        .dropdown-menu li a {
+            display: block; /* Convertir el enlace en un elemento de bloque */
+            color: black; /* Cambiar el color del texto a negro */
+            text-decoration: none; /* Eliminar el subrayado */
+            padding: 2px; /* Añadir relleno para mejorar el aspecto */
+        
+            text-align: center;
+        }
+        
+        .dropdown-menu li a:hover {
+            background-color: rgba(0, 0, 0, 0.1); /* Cambiar el color de fondo al pasar el cursor */
+        }
+        .carousel-item img {
+            height: 500px; /* Ajusta la altura deseada */
+            object-fit: cover; /* Hace que la imagen cubra el contenedor manteniendo su relación de aspecto */
+            width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+            margin-bottom: 3em;
+        }
+        .carousel-indicators li {
+            list-style-type: none; /* Oculta los números */
+        }
+        .tutores {
+            margin-left: 4em;
+        }
